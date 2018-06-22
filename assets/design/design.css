@@ -29,6 +29,9 @@ cursor: pointer;
     text-transform: uppercase;
     align-content: right;
 }
+.buttons >li{
+    list-style: none;
+}
 .nav-home,.nav-info,.nav-contact{
     margin:2px;
 }
@@ -73,4 +76,18 @@ section.jumbotron > .contact{
 [type="email"]{
     width: 100%;
 }
- 
+ .row .hide{
+    display: none;
+}
+@media (max-width:800px){
+   .hamburger{
+        display: none;
+    }
+  .jumbotron{
+      font-size:2vw;
+      height: 100vh;
+      top:200px;
+  }
+
+
+}
